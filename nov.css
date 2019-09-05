@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nov{
+	width: 100%;
+	height: 100vh;
+}
+.nov img{
+	width: 100%;
+	height: 50%;
+	margin-top: 27px;
+}
+.nov a{
+	text-decoration: none;
+}
+.nov h1{
+	border: 2px solid black;
+	background-color: skyblue;
+	margin-top: 25px;
+	text-align: center;
+}
+@media only screen and (min-width: 1100px){
+.nov img{
+	width: 50%;
+	height: 100%;
+}
+.nov h1{
+	margin-left: 5px;
+	width: 49%;
+	border: 4px solid black;
+}
+}
